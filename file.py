@@ -13,7 +13,7 @@ def change_color():
 
 
 def change_font(*args):
-    pass
+    text_area.config(font=(font_name.get(), size_box.get()))
 
 def new_file():
     pass

@@ -71,6 +71,7 @@ text_area.grid(sticky=N+E+S+W)
 
 
 scroll_bar.pack(side=RIGHT, fill=Y)
+text_area.config(yscrollcommand=scroll_bar.set)
 
 
 window.mainloop()
